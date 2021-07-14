@@ -29,5 +29,9 @@
 import UIKit
 
 class MenuViewController: UIViewController {
+  
+  override func viewDidLoad() {
+    print("test")
+  }
 
 }
