@@ -20,8 +20,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="819"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Q88-kK-V2Y">
-                                <rect key="frame" x="86" y="70" width="202" height="166"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Q88-kK-V2Y">
+                                <rect key="frame" x="86.666666666666686" y="328" width="202" height="166"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHQ-5z-d6h">
                                         <rect key="frame" x="0.0" y="0.0" width="202" height="50"/>
@@ -77,20 +77,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCZ-hl-yjL">
-                                <rect key="frame" x="166" y="473" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1vX-mu-xp7"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="1vX-mu-xp7" firstAttribute="bottom" secondItem="wRb-FI-Scd" secondAttribute="bottom" constant="8" id="JXx-o7-MzC"/>
+                            <constraint firstItem="Q88-kK-V2Y" firstAttribute="centerY" secondItem="1vX-mu-xp7" secondAttribute="centerY" id="PnV-oP-Cpi"/>
                             <constraint firstItem="wRb-FI-Scd" firstAttribute="leading" secondItem="L1R-nN-lSh" secondAttribute="leadingMargin" id="RKP-Od-wDg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wRb-FI-Scd" secondAttribute="trailing" id="WMA-dU-bqG"/>
+                            <constraint firstItem="Q88-kK-V2Y" firstAttribute="centerX" secondItem="1vX-mu-xp7" secondAttribute="centerX" id="nLc-Pu-iTp"/>
                         </constraints>
                     </view>
                 </viewController>
